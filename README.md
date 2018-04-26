@@ -6,5 +6,7 @@
 ** Le deuxième app est je-me-presente-2
 ### CONTRIBUTEUR
 **Auteur** : [**"Fenitra"**]
+### _________
 **Version Ruby** : 2.5
+### _________
 **Version Rails** : 5.2
