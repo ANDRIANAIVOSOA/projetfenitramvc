@@ -1,0 +1,11 @@
+<span></span>
+<div class="row">
+    <p><%= @message_erreur %></p>
+    <h1>Bienvenue dans la création d'utilisateur</h1>
+    <form action="/create" method="post">
+        <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+        <input type="text" name="username" placeholder="USERNAME">
+        <input type="textarea" name="bio" placeholder="BIO">
+        <input type="submit" name="inserer">
+    </form>
+</div>
